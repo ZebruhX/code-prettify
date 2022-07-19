@@ -15,7 +15,7 @@ An embeddable script that makes source-code snippets in HTML prettier.
 * Works on HTML pages.
 * Works even if code contains embedded links, line numbers, etc.
 * Simple API: include some JS & CSS and add an onload handler.
-* Lightweights: small download and does not block page from loading while
+* Lightweights: small download and does not block the page from loading while
   running.
 * Customizable styles via CSS. See the [themes gallery][1].
 * Supports all C-like, Bash-like, and XML-like languages. No need to specify
@@ -33,7 +33,7 @@ An embeddable script that makes source-code snippets in HTML prettier.
 ```HTML
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 ```
- * See [Getting Started](docs/getting_started.md) to configure that URL with
+ * See [Getting Started](docs/getting_started.md) to configure that URL with the
    options you need.
  * Look at the [skin gallery][1] and pick styles that suit you.
 
@@ -142,7 +142,7 @@ See the [changelog](CHANGES.md).
 
 ### Why doesn't Prettyprinting of strings work on WordPress?
 
-Apparently wordpress does "smart quoting" which changes close quotes.  This
+Apparently, WordPress does "smart quoting" which changes close quotes.  This
 causes end quotes to not match up with open quotes.
 
 This breaks prettifying as well as copying and pasting of code samples.  See
@@ -202,7 +202,7 @@ which will confuse it.
 ### How can I customize the colors and styles of my code?
 
 Prettify adds `<span>` with `class`es describing the kind of code.  You can
-create CSS styles to matches these classes.
+create CSS styles to match these classes.
 
 See the [theme gallery][1] for examples.
 
